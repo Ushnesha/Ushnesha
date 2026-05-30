@@ -46,7 +46,7 @@ These days I'm focused on **LLMs, RAG systems, and applied ML** — from local m
 Real-time object detection and trajectory prediction on a Raspberry Pi with an ArduCAM ToF depth sensor (45%+ catch accuracy). Built a dual prediction pipeline pairing a physics-based ballistic model with a RandomForest variant trained on 500+ trajectories.
 
 **🐦 BirdCLEF+ 2026 (Kaggle)**
-Pretrained and fine-tuned EfficientNet backbones to identify 234 wildlife species from audio recordings of Brazil's Pantanal wetlands (score: 0.85). Converted audio to mel-spectrograms, trained with augmentation and AUC-optimized loss, and ensembled segment-level predictions.
+Pretrained and fine-tuned EfficientNet backbones to identify 234 wildlife species from audio recordings of Brazil's Pantanal wetlands. Converted audio to mel-spectrograms, trained with augmentation and AUC-optimized loss, and ensembled segment-level predictions with blended ProtoSSM, SED and BirdNet achieving best score of **0.944**.
 
 **📄 Multimodal RAG Chat with PDFs (Local LLM)**
 End-to-end multimodal RAG system supporting text, tables, and images from PDFs — fully local and privacy-preserving using Ollama, vector embeddings, and Streamlit.
