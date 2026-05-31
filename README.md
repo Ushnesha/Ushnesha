@@ -4,7 +4,7 @@
 
 I build intelligent systems at the intersection of **large language models, retrieval, and large-scale data engineering**. Previously spent ~5 years at **Dell Technologies** engineering real-time fraud-detection pipelines and semantic retrieval systems that led to a **granted patent** in language-agnostic hybrid search.
 
-These days I'm focused on **LLMs, RAG systems, and applied ML** — from local multimodal PDF chat to real-time object detection on edge hardware.
+Building **LLMs, RAG systems, and applied ML** - from local multimodal PDF chat to real-time object detection on edge hardware.
 
 - 🔭 Currently building with LLMs, RAG, and multimodal pipelines
 - 🎓 MS CS @ ASU (Aug 2025 – May 2027)
