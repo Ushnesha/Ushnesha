@@ -55,9 +55,12 @@ End-to-end multimodal RAG system supporting text, tables, and images from PDFs â
 
 ## ðŸ“Š GitHub Stats
 
-![Ushnesha's GitHub stats](https://github-readme-stats.vercel.app/api?username=Ushnesha&show_icons=true&theme=tokyonight)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Ushnesha&layout=compact&theme=tokyonight)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Ushnesha&show_icons=true&theme=tokyonight" alt="Ushnesha's GitHub Stats" height="180" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ushnesha&layout=compact&theme=tokyonight" alt="Top Languages" height="180" />
+  <br/><br/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ushnesha&theme=tokyonight" alt="GitHub Streak" height="180" />
+</p>
 
 ---
 
