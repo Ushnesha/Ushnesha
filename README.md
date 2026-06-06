@@ -13,6 +13,18 @@ Building **LLMs, RAG systems, and applied ML** - from local multimodal PDF chat 
 
 ---
 
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-stats-extended.vercel.app/api?username=Ushnesha&show_icons=true&theme=tokyonight&hide_rank=true&include_all_commits=true&hide=issues" alt="Ushnesha's GitHub Stats" height="180" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Ushnesha&layout=compact&theme=tokyonight&hide=java" alt="Top Languages" height="180" />
+</p>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ushnesha&theme=tokyonight" alt="GitHub Streak" height="180" />
+</p>
+
+---
+
 ## 🛠️ Tech Stack
 
 **AI / ML**
@@ -50,15 +62,6 @@ Pretrained and fine-tuned EfficientNet backbones to identify 234 wildlife specie
 
 **📄 Multimodal RAG Chat with PDFs (Local LLM)**
 End-to-end multimodal RAG system supporting text, tables, and images from PDFs — fully local and privacy-preserving using Ollama, vector embeddings, and Streamlit.
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=Ushnesha&show_icons=true&theme=tokyonight" alt="Ushnesha's GitHub Stats" height="180" />
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Ushnesha&layout=compact&theme=tokyonight" alt="Top Languages" height="180" />
-</p>
 
 ---
 
