@@ -13,14 +13,16 @@ Building **LLMs, RAG systems, and applied ML** - from local multimodal PDF chat 
 
 ---
 
-## 📊 GitHub Stats
+<h2 align="center">📊 GitHub Stats</h2>
 
 <p align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=Ushnesha&show_icons=true&theme=tokyonight&hide_rank=true&include_all_commits=true&hide=issues" alt="Ushnesha's GitHub Stats" height="180" />
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Ushnesha&layout=compact&theme=tokyonight&hide=java" alt="Top Languages" height="180" />
-</p>
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ushnesha&theme=tokyonight" alt="GitHub Streak" height="180" />
+  <a href="https://github.com/Ushnesha">
+    <img src="https://github-stats-extended.vercel.app/api?username=Ushnesha&show_icons=true&theme=tokyonight&hide_rank=true&include_all_commits=true&hide=issues&border_radius=12" alt="GitHub Stats" height="180" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/Ushnesha">
+    <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Ushnesha&layout=compact&theme=tokyonight&hide=java&border_radius=12" alt="Top Languages" height="180" />
+  </a>
 </p>
 
 ---
