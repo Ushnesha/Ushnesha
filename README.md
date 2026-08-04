@@ -2,13 +2,11 @@
 
 **AI/ML & Data Engineer** | MS in Computer Science @ Arizona State University (4.0 GPA)
 
-I build intelligent systems at the intersection of **large language models, retrieval, and large-scale data engineering**. Previously spent ~5 years at **Dell Technologies** engineering real-time fraud-detection pipelines and semantic retrieval systems that led to a **granted patent** in language-agnostic hybrid search.
+I build intelligent, low-latency systems at the intersection of **large language models, multi-agent RAG, and large-scale data engineering**. Previously spent ~5 years at **Dell Technologies** engineering real-time fraud-detection pipelines and language-agnostic semantic retrieval systems that led to a **granted patent** in hybrid search.
 
-Building **LLMs, RAG systems, and applied ML** - from local multimodal PDF chat to real-time object detection on edge hardware.
-
-- 🔭 Currently building with LLMs, RAG, and multimodal pipelines
-- 🎓 MS CS @ ASU (Aug 2025 – May 2027)
-- 📄 Patent holder — *Distributed Hybrid Search for Language-Agnostic Retrieval*
+- 🔭 Building systems with **LangGraph, GraphRAG, and vLLM optimization pipelines**
+- 🎓 MS CS @ ASU (Aug 2025 – May 2027) | B.Tech+M.Tech @ IIIT Gwalior
+- 📄 Patent holder — *Distributed Hybrid Search for Language-Agnostic Retrieval (US 2024)*
 - 📫 Reach me at **daripa.ushnesha9701@gmail.com**
 
 ---
@@ -29,13 +27,14 @@ Building **LLMs, RAG systems, and applied ML** - from local multimodal PDF chat 
 
 ## 🛠️ Tech Stack
 
-**AI / ML**
+**AI / ML & LLMs**
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-0052FF?style=for-the-badge&logo=langchain&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![vLLM](https://img.shields.io/badge/vLLM-orange?style=for-the-badge)
+![Arize Phoenix](https://img.shields.io/badge/Arize%20Phoenix-000000?style=for-the-badge)
 
 **Data & Systems**
 
@@ -44,10 +43,13 @@ Building **LLMs, RAG systems, and applied ML** - from local multimodal PDF chat 
 ![Apache Spark](https://img.shields.io/badge/Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
 ![Apache Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
 ![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
 
-**Cloud & Tools**
+**Databases & Cloud**
 
+![Neo4j](https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white)
+![Qdrant](https://img.shields.io/badge/Qdrant-red?style=for-the-badge)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
@@ -56,14 +58,19 @@ Building **LLMs, RAG systems, and applied ML** - from local multimodal PDF chat 
 
 ## 🚀 Featured Projects
 
-**🛰️ AI-Powered Autonomous Trash Interceptor**
-Real-time object detection and trajectory prediction on a Raspberry Pi with an ArduCAM ToF depth sensor (45%+ catch accuracy). Built a dual prediction pipeline pairing a physics-based ballistic model with a RandomForest variant trained on 500+ trajectories.
+**📈 [Robust Financial Multi-Agent GraphRAG & Guardrail System](https://github.com/Ushnesha/graph-rag-guardrail-agent)**
+* Engineered a **LangGraph** multi-agent pipeline (Supervisor, Context Retriever, Web Searcher, Python Math Executor) to orchestrate financial reasoning over the 6K+ FinQA Benchmark Dataset.
+* Built a hybrid search engine integrating **Neo4j** (GraphRAG with 20K+ nodes), **Qdrant** (dense vectors), and **BM25** (lexical search) with a **Cross-Encoder Reranker**.
+* Implemented an **LLM-as-a-judge** evaluation suite, and optimized performance to achieve a **65% reduction in TTFT (under 120ms)** and an **82% prefix cache hit rate** using vLLM chunked prefill and Arize Phoenix tracing.
 
-**🐦 BirdCLEF+ 2026 (Kaggle)**
-Pretrained and fine-tuned EfficientNet backbones to identify 234 wildlife species from audio recordings of Brazil's Pantanal wetlands. Converted audio to mel-spectrograms, trained with augmentation and AUC-optimized loss, and ensembled segment-level predictions with blended ProtoSSM, SED and BirdNet achieving best score of **0.944**.
+**🛰️ [AI-Powered Autonomous Trash Interceptor](https://github.com/Ushnesha/AI-Powered-Autonomous-Trash-Interceptor)**
+* Developed a **real-time object tracking system** on a Raspberry Pi using an **ArduCAM ToF** depth sensor, processing frames at 30 FPS to detect flying projectiles via background subtraction.
+* Implemented a dual trajectory prediction pipeline pairing a **Kalman filter** physics model with a **RandomForest model** trained on 500+ throws to predict landing spots within 150ms.
+* Engineered a closed-loop **PID controller** to drive a 4-motor Mecanum wheel platform, achieving projectile intercept catch rates of **85%+** on physical hardware.
 
-**📄 Multimodal RAG Chat with PDFs (Local LLM)**
-End-to-end multimodal RAG system supporting text, tables, and images from PDFs — fully local and privacy-preserving using Ollama, vector embeddings, and Streamlit.
+**🐦 [BirdCLEF+ 2026 (Kaggle Competition)](https://github.com/Ushnesha/BirdClef-2026)**
+* Pretrained and fine-tuned **EfficientNet** variations to identify 234 wildlife species from audio recordings of Brazil's Pantanal wetlands, achieving a score of **0.85**.
+* Converted raw audio into **mel-spectrograms**, trained with data augmentation and **AUC-optimized loss**, and ensembled predictions for 5-second segments of one-minute soundscapes.
 
 ---
 
