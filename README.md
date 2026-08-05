@@ -2,9 +2,9 @@
 
 **AI/ML & Data Engineer** | MS in Computer Science @ Arizona State University (4.0 GPA)
 
-I build intelligent, low-latency systems at the intersection of **large language models, multi-agent RAG, and large-scale data engineering**. Previously spent ~5 years at **Dell Technologies** engineering real-time fraud-detection pipelines and language-agnostic semantic retrieval systems that led to a **granted patent** in hybrid search.
+I build not only intelligent, low-latency scalable AI systems at the intersection of **large language models, multi-agent RAG, and large-scale data engineering** but also, implement continuous operational visibility, performance diagnostics, drift detection, and safety governance for LLM applications. Previously worked ~5 years at **Dell Technologies** as Senior Data Engineer, engineering real-time fraud-detection pipelines and language-agnostic semantic retrieval systems that led to a **granted patent** in hybrid search.
 
-- 🔭 Building systems with **LangGraph, GraphRAG, and vLLM optimization pipelines**
+- 🔭 Building systems using **LangGraph, GraphRAG, and vLLM optimization pipelines** with **AI Observability & Governance**
 - 🎓 MS CS @ ASU (Aug 2025 – May 2027) | B.Tech+M.Tech @ IIIT Gwalior
 - 📄 Patent holder — *Distributed Hybrid Search for Language-Agnostic Retrieval (US 2024)*
 - 📫 Reach me at **daripa.ushnesha9701@gmail.com**
